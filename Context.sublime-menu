@@ -1,0 +1,54 @@
+[
+    {
+        "caption": "-",
+        "id": "separator"
+    },
+    {
+        "caption": "P4",
+        "mnemonic": "f",
+        "id": "p4",
+        "children":
+        [
+            {
+                "command": "p4_login",
+                "caption": "Login"
+            },
+            {
+                "command": "p4_add",
+                "caption": "Add"
+            },
+            {
+                "command": "p4_open",
+                "caption": "Open"
+            },
+            {
+                "command": "p4_delete",
+                "caption": "Delete"
+            },
+            {
+                "command": "p4_diff",
+                "caption": "Diff"
+            },
+            {
+                "command": "p4_diff_all",
+                "caption": "Diff all files"
+            },
+            {
+                "command": "p4_revert",
+                "caption": "Revert"
+            },
+            {
+                "command": "p4_opened",
+                "caption": "Opened"
+            },
+            {
+                "command": "p4_logout",
+                "caption": "Logout"
+            }
+        ]
+    },
+	{
+        "caption": "-",
+        "id": "separator"
+    }
+]

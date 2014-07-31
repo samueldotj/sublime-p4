@@ -1,0 +1,93 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "t",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "P4",
+                "mnemonic": "f",
+                "id": "p4",
+                "children":
+                [
+                    {
+                        "command": "p4_login",
+                        "caption": "Login"
+                    },
+                    {
+                        "command": "p4_add",
+                        "caption": "Add"
+                    },
+                    {
+                        "command": "p4_open",
+                        "caption": "Open"
+                    },
+                    {
+                        "command": "p4_delete",
+                        "caption": "Delete"
+                    },
+                    {
+                        "command": "p4_diff",
+                        "caption": "Diff current file"
+                    },
+                    {
+                        "command": "p4_diff_all",
+                        "caption": "Diff all files"
+                    },
+                    {
+                        "command": "p4_rename",
+                        "caption": "Rename"
+                    },
+                    {
+                        "command": "p4_revert",
+                        "caption": "Revert"
+                    },
+                    {
+                        "command": "p4_submit",
+                        "caption": "Submit"
+                    },
+                    {
+                        "command": "p4_logout",
+                        "caption": "Logout"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "P4",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/P4/P4.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/P4.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

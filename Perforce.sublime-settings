@@ -1,0 +1,5 @@
+{
+    "p4_auto_open": true, // when true, checkout will occur depending on the modify/save settings
+    "p4_auto_add": true, // when true, any file within the client spec that doesn't exist during the presave will be added
+    "p4_warnings_enabled": true, // will output messages when warnings happen
+}

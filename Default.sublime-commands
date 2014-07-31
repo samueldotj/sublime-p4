@@ -1,0 +1,38 @@
+[
+    {
+        "caption": "P4: Login",
+        "command": "p4_login"
+    },
+    {
+        "caption": "P4: Open",
+        "command": "p4_open"
+    },
+    {
+        "caption": "P4: Add",
+        "command": "p4_add"
+    },
+    {
+        "caption": "P4: Revert",
+        "command": "p4_revert"
+    },
+    {
+        "caption": "P4: Delete",
+        "command": "p4_delete"
+    },
+    {
+        "caption": "P4: Diff",
+        "command": "p4_diff"
+    },
+    {
+        "caption": "P4: Diff all",
+        "command": "p4_diff_all"
+    },
+    {
+        "caption": "P4: Opened",
+        "command": "p4_opened"
+    },
+    {
+        "caption": "P4: Logout",
+        "command": "p4_logout"
+    },
+]
